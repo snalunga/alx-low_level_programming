@@ -1,15 +1,13 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Prints the alphabet in lowercase, 
- * followed by a new line
- * print all letters except q and e.
+ * Description: Prints the alphabet in lowrcasee
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';	
-	
+	char c = 'a';
+
 	while (c <= 'z')
 	{
 		if (c != 'e' && c != 'q')
@@ -20,3 +18,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+}
