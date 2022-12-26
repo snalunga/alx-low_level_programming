@@ -9,14 +9,15 @@
  */
 int main(void)
 {
-	char c = 0;
+	int s = 0, e = 9;
 
-	while (c <= '0')
+	while (s <= 'e')
 	{
-		putchar(c);
-		c++;
+		putchar(s + '0');
+		s++;
 	}
 
 	putchar('\n');
+
 	return (0);
 }
